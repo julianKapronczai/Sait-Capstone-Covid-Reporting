@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html
+            {
+                background-color: #232931;
+                color: white;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            h1
+            {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 5%;
+            }
+
+            h2
+            {
+                text-align: center;
+            }
+
+            .red
+            {
+                color: #A11E1E;
+            }
+
+            .green
+            {
+                color: green;
+            }
+        </style>
+        <title>Account Activation Request</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Jasper Pharmasave Covid Reporting</h1>
+        <h2 class='red'>Account Activation Request</h2>
+        <p>
+            Hello {{username}},
+            A new user has requested access to the covid reporting system
+            <br>
+            They have requested to be added to the {{organisationName}} organisation
+            <br>
+            If the organisation is new, it will need created. Otherwise please log in to the covid reporting system, and access the user management dashboard and assign the user to the 
+            organisation, and activate the account.
+            <br>
+            <a href="{{loginLink}}">Click here to go to the login page to access the admin dashboard</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemalocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+  <persistence-unit name="CovidReporting_PU">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.sait.capstone.itsd.covidreporting.models.Organisation</class>
+    <class>com.sait.capstone.itsd.covidreporting.models.UuidMap</class>
+    <class>com.sait.capstone.itsd.covidreporting.models.CovidReport</class>
+    <class>com.sait.capstone.itsd.covidreporting.models.CovidTestResult</class>
+    <class>com.sait.capstone.itsd.covidreporting.models.Role</class>
+    <class>com.sait.capstone.itsd.covidreporting.models.User</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/capstonecovidreporting"/>
+      <property name="jakarta.persistence.jdbc.user" value="root"/>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="jakarta.persistence.jdbc.password" value="password"/>
+    </properties>
+  </persistence-unit>
+</persistence>

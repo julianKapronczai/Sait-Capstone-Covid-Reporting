@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html
+            {
+                background-color: #232931;
+                color: white;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            h1
+            {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 5%;
+            }
+
+            h2
+            {
+                text-align: center;
+            }
+
+            .red
+            {
+                color: #A11E1E;
+            }
+
+            .green
+            {
+                color: green;
+            }
+        </style>
+        <title>Account Activation Request</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Jasper Pharmasave Covid Reporting</h1>
+        <h2 class='red'>Account Activated</h2>
+        <p>
+            Hello {{username}},
+            Your account for the Jasper PharmaSave Covid Reporting system has been activated by an Administrator.
+            <br>
+            <a href="{{loginLink}}">Click here to go to the login page to start using the system.</a>
+        </p>
+    </body>
+</html>

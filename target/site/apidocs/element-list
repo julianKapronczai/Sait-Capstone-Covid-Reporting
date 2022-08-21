@@ -1,0 +1,6 @@
+com.sait.capstone.itsd.covidreporting.data_access_layer
+com.sait.capstone.itsd.covidreporting.filters
+com.sait.capstone.itsd.covidreporting.models
+com.sait.capstone.itsd.covidreporting.services
+com.sait.capstone.itsd.covidreporting.servlets
+com.sait.capstone.itsd.covidreporting.utilities
